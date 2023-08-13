@@ -1,0 +1,8 @@
+document.addEventListener("DOMContentLoaded", function(){
+    const miBoton = document.querySelector(".primer-div");
+
+    miBoton.addEventListener("click", function(event) {
+        event.stopPropagation();
+        alert("Hola!");
+    });
+});
